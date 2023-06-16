@@ -1,10 +1,10 @@
-package service;
+package MVC.service;
 
-import model.Car;
+import MVC.model.Car;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public interface CarService {
     List<Car> getCarList(int count);
+    List<Car> getAllCars();
 }
