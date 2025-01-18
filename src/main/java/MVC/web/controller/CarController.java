@@ -25,7 +25,7 @@ public class CarController {
                            Model model) {
         if (count == null) {
             model.addAttribute("cars", carService.getAllCars());
-            return "car";
+            return "car228";
         }
         model.addAttribute("cars", carService.getCarList(count));
         return "car";
